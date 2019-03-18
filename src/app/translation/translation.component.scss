@@ -1,0 +1,32 @@
+.contenedor {
+  font-family: 'Roboto', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    text-align: center;
+    font-size: 68px;
+  }
+
+  .contenedor-botones {
+    display: flex;
+    width: 500px;
+    button {
+      outline: none;
+      margin: 10px;
+      width: 100%;
+      padding: 20px 10px;
+      border: 0px;
+      background: rgb(255, 238, 109);
+      border-radius: 30px;
+      font-size: 14px;
+      &.active {
+        background: rgb(250, 102, 23);
+      }
+    }
+  }
+}
